@@ -1,0 +1,21 @@
+header {
+    height: 110px;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+#imagesCollection {
+    display: flex;
+    width: 300px;
+    flex: wrap;
+    flex-direction: column;
+}
+
+#imagesCollection img {
+    display: block;
+    width: 100%;
+}
+

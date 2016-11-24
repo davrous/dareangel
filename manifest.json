@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "DareAngel",
+  "description": "This extension provides more accessibility on images of a web page by using Microsoft Cognitive Services Computer Vision API to analyze it for you",
+  "version": "1.0",
+  "author": "David Rousset",
+
+  "browser_action": {
+        "default_icon": { 
+          "20":"icon20.png",
+          "38":"icon38.png"
+        },  
+    "default_popup": "dashboard.html"
+  },
+    "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dareangel.client.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
