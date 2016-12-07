@@ -5,7 +5,7 @@ It will simply extract the images from a specific web page (the active tab) and 
 
 This video is demonstrating it into Edge, Chrome, Firefox & Opera:
 
-[![Dare Angel Video](https://david.blob.core.windows.net/videos/dareangelvideothumb.jpg)](https://youtu.be/wa2Beh7etPc?t=2s "Dare Angel Video")
+[![Dare Angel Video](https://david.blob.core.windows.net/videos/dareangelvideothumb.jpg)](https://www.youtube.com/watch?v=gQ6_CZlIKyo "Dare Angel Video")
 
 In this sample, we're using those services:
 - The **Computer Vision API** from **Microsoft Cognitive Services** which are **free to use** (with a quota). You’ll need to generate a free key there to make the code working and replace the TODO section in the code with it to make this extension working on your machine. To have an idea of what this API could do, play with it: https://www.captionbot.ai 
