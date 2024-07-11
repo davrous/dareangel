@@ -4,8 +4,7 @@
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
 // Spec version: 19 October 2012
-// Errata version: 6 June 2014
-// Corrected unofficial spec version: 6 June 2014
+
 
 interface SpeechRecognition extends EventTarget {
     grammars: SpeechGrammarList;

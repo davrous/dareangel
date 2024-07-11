@@ -5,7 +5,7 @@ window.browser = (function () {
 })();
 
 console.log("Dare Angel content script started");
-
+//local man online
 browser.runtime.onMessage.addListener(
   function (request, sender, sendResponse) {
     if (request.command == "requestImages") {
